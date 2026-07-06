@@ -12,3 +12,6 @@
   arp -a - Viewed ARP table
   ss -tuln - Checked listening services
   ```
+
+  ## v0.2
+  - Ubuntu Desktop
