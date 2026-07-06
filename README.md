@@ -9,7 +9,7 @@ Current Environment
 
 - Ubuntu Server
 - Kali Linux
-- Windows 11 Client (Planned)
+- Ubuntu Desktop
 
 Host Machine
 
@@ -33,7 +33,7 @@ Current Status
 |---------|--------|
 | Ubuntu Server | Complete |
 | Kali Linux | Complete |
-| Windows Client | Planned |
+| Ubuntu Desktop | Complete |
 
 Future Plans
 
