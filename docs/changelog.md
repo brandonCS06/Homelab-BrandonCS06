@@ -13,5 +13,5 @@
   ss -tuln - Checked listening services
   ```
 
-  ## v0.2
-  - Ubuntu Desktop
+## v0.2
+- Ubuntu Desktop
