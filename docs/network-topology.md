@@ -24,7 +24,16 @@ Subnet Mask : /24
 
 Interface Name: enp0s3
 
-
+# Network Layout
+               Host Computer
+                      |
+              VirtualBox Network
+                      |
+        ┌─────────────┼─────────────┐
+        │             │             │
+    Kali Linux    Ubuntu Desktop   Ubuntu Server
+    Attacker      Client           Services
+   
 # Network Characteristics
 
 - Network: 10.0.2.0/24
