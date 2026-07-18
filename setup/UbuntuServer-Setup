@@ -1,0 +1,29 @@
+# Ubuntu Server Setup
+
+## Role
+
+The Ubuntu Server VM acts as the primary server within the homelab.
+
+Current responsibilities include:
+
+- Hosting network services
+- Providing services for client testing
+- Security experimentation
+- Acting as a target for controlled network security testing
+
+## System Information
+
+| Property | Value |
+|---|---|
+| OS | Ubuntu Server |
+| Hostname | homelab-server |
+| Internal IP | 10.0.2.7 |
+| Role | Server |
+
+## Initial Configuration
+
+After installing Ubuntu Server:
+
+```bash
+sudo apt update
+sudo apt upgrade
