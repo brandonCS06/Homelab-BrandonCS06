@@ -16,7 +16,7 @@ Current responsibilities include:
 | Property | Value |
 |---|---|
 | OS | Ubuntu Server |
-| Hostname | homelab-server |
+| Hostname | UbuntuServer |
 | Internal IP | 10.0.2.7 |
 | Role | Server |
 
