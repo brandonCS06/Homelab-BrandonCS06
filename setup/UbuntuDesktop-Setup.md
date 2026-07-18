@@ -17,7 +17,7 @@ It is primarily used to:
 | Property         | Value              |
 | ---------------- | ------------------ |
 | Operating System | Ubuntu Desktop     |
-| Hostname         | `UbuntuDesktop`    |
+| Hostname         | `UbuntuDesktop`   |
 | Role             | Client Workstation |
 | CPU              | 2 cores            |
 | Memory           | 4 GB               |
@@ -34,41 +34,11 @@ The VM uses two network adapters:
 | Adapter 1 | NAT              | Internet access and system updates   |
 | Adapter 2 | Internal Network | Communication with other homelab VMs |
 
-The internal network is used for isolated lab traffic.
-
-See:
-
-* [Network Topology](../topology/network-topology.md)
-* [IP Addressing](../topology/ip-addressing.md)
-* [VirtualBox Networking](../topology/virtualbox-networking.md)
-
-## Initial Operating System Configuration
-
 After installing Ubuntu Desktop, the system was updated:
 
 ```bash
 sudo apt update
 sudo apt upgrade
-```
-
-## Network Configuration
-
-The internal network interface is assigned the following address:
-
-| Interface                  | IP Address  | Purpose               |
-| -------------------------- | ----------- | --------------------- |
-| Internal Network Interface | `10.0.0.20` | Homelab communication |
-
-Verify the configuration with:
-
-```bash
-ip addr
-```
-
-The routing table can be viewed with:
-
-```bash
-ip route
 ```
 
 ## Current State
