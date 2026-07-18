@@ -7,7 +7,7 @@ This homelab is used to practice networking and Linux administration.
 
 Current Environment
 
-- [Ubuntu Server](setup/UbuntuServer-Setup)
+- [Ubuntu Server](setup/UbuntuServer-Setup.md)
 - [Kali Linux](setup/KaliLinux-setup.md)
 - [Ubuntu Desktop](setup/UbuntuDesktop-Setup.md)
 
