@@ -24,3 +24,29 @@
 | Ubuntu Server | `10.0.2.15` | `10.0.0.10` |
 | Ubuntu Desktop | `10.0.2.15` | `10.0.0.20` |
 | Kali Linux | `10.0.2.15` | `10.0.0.30` |
+
+## v0.4
+
+### Updated Firewall Configuration
+
+**Reason**
+- Enabled HTTP access to support Apache web server testing and future web-based labs.
+
+**Changes**
+- Added UFW rule to allow inbound TCP traffic on port 80.
+- Retained existing SSH access on port 22.
+
+```bash
+sudo ufw allow 80/tcp
+```
+
+**Current UFW Rules**
+
+```
+22/tcp  ALLOW IN
+80/tcp  ALLOW IN
+```
+
+**Impact**
+- Ubuntu Desktop and Kali can now access the Apache web server hosted on the Ubuntu Server.
+- Enables future HTTP and web service troubleshooting labs.
