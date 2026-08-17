@@ -17,7 +17,8 @@
 - Ubuntu Desktop
 
 ## v0.3
-- Assigned static IP addressing for easier documentation and experimenting
+
+### Assigned static IP addressing for easier documentation and experimenting
 
 | Machine | NAT Network | Internal Homelab Network |
 |---|---|---|
@@ -50,3 +51,11 @@ sudo ufw allow 80/tcp
 **Impact**
 - Ubuntu Desktop and Kali can now access the Apache web server hosted on the Ubuntu Server.
 - Enables future HTTP and web service troubleshooting labs.
+
+## v0.5
+
+### Hardened Apache 
+- Hardened Apache information disclosure by changing ServerTokens from Full to Prod.
+- Confirmed ServerSignature Off is enabled.
+- Verified /server-status is restricted with Require local.
+- Tested the configuration from Kali and confirmed reduced Apache version information is exposed.
